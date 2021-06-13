@@ -1,0 +1,28 @@
+.footer {
+  background: #AA15B6;
+  min-height: 40vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .footer__description {
+    padding: 5rem 2rem;
+    text-align: left;
+
+    h5 {
+      font-style: normal;
+      text-decoration: none;
+      margin:0.5rem 0;
+    }
+
+    p {
+      text-align: left;
+      margin:0.5rem 0;
+    }
+  }
+
+
+
+}

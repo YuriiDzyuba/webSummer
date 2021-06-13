@@ -1,0 +1,30 @@
+@import "myVariables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../components/navbar/navbar.module";
+@import "../components/indexTop/indexTop";
+@import "../components/index2nd/index2nd";
+@import "../components/index3th/index3th";
+@import "../components/index4th/index4th";
+@import "../components/footer/footer";
+
+html {
+  background-color: $dark;
+
+  body {
+    background: transparent;
+
+    p {
+      font-weight: 200;
+    }
+
+    .borderLeft {
+      border-left: 4px white solid;
+      padding-left: 1rem;
+    }
+
+    .borderBottom {
+      border-bottom: 4px white solid;
+      padding: 1rem;
+    }
+  }
+}
