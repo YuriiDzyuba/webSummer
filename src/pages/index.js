@@ -86,7 +86,7 @@ const IndexPage = () => {
     ],
     Index6nd: {
       pic: "",
-      header: "What exactly do we do",
+      header: "6 What exactly do we do",
       p: ["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "],
       underHeader: "",
       underPic: ""
@@ -122,7 +122,7 @@ const IndexPage = () => {
 
   return (
 
-    < Layout>
+    <Layout >
       <Seo title="Home"/>
       <IndexTop/>
       <Index2nd state={state.Index2nd}/>

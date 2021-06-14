@@ -1,0 +1,61 @@
+.contactInfoBlock {
+  min-height: 50vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .contactInfoBlock__description {
+    padding: 5rem 0 5rem 0;
+
+    img {
+      margin: 2rem 0;
+    }
+
+    h4 {
+      margin: 1rem 0 2rem 0;
+      font-style: normal;
+      text-decoration: none;
+    }
+
+    p {
+      line-height: 1.75rem;
+    }
+
+    h5 {
+      font-style: normal;
+      text-decoration: none;
+      margin: 3rem 0 0.75rem 0;
+    }
+
+  }
+
+  .contactInfoBlock__links {
+    padding-top: 2.5rem;
+
+    a {
+      padding: 2rem;
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: powderblue;
+      text-decoration: none;
+    }
+
+    button {
+      width: 45px;
+      height: 45px;
+
+      img {
+        margin: 0 0 1px 0;
+        vertical-align: center;
+      }
+
+    }
+  }
+
+
+}

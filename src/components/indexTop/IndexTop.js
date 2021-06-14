@@ -10,7 +10,10 @@ const IndexTop = () => {
             <h1>Welcome to React-Static</h1>
           </div>
           <div className="col-6 indexTop__right">
-            <h1>Full Template</h1>
+            <h1 >Full Template</h1>
+            <div className="d-flex flex-row justify-content-end">
+              <div className="col-3 borderTop pb-4"/>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem blanditiis consectetur cumque
               enim
               eum exercitationem quia sed unde voluptates? Adipisci est explicabo facere, impedit labore nemo

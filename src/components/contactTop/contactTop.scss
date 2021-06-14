@@ -1,0 +1,31 @@
+.contactTop {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+  .contactTop__right {
+    h1 {
+      text-transform: uppercase;
+      padding: 2rem 0;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 2rem;
+
+      padding-bottom: 2rem;
+    }
+
+    button {
+      border-radius: 15px;
+      padding: 0.65rem 1.65rem;
+    }
+
+    padding: 10px;
+    text-align: right;
+  }
+}
+
+
